@@ -4,6 +4,11 @@ A local, fully offline Retrieval-Augmented Generation (RAG) system that answers 
 
 This project was built as a hands-on foundation before developing **ContractAI**, a larger multi-agent system for comparing construction contracts against FIDIC standards and flagging contractor-risk clauses.
 
+## Demo
+
+![Contract AI Streamlit UI](docs/demo_screenshot.png)
+
+
 ## Architecture
 
 ```
