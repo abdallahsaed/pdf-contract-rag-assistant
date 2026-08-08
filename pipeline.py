@@ -134,8 +134,7 @@ print(
 
 hybrid_results = reciprocal_rank_fusion(
     dense_results,
-    bm25_results,
-    query=query
+    bm25_results
 )
 
 

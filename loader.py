@@ -43,8 +43,8 @@ def load_pdf(file_path: str):
 
 
 if __name__ == "__main__":
-    # Test: on our real ERG/ABEC contract
-    test_path = "data/Contract RI8 (BP#03) - ABEC.pdf"
+    # Test: replace with the path to any contract PDF
+    test_path = "data/your_contract.pdf"
     docs = load_pdf(test_path)
     print(f"Number of pages loaded: {len(docs)}")
     if docs:
