@@ -1,7 +1,7 @@
 """
 loader.py
 Responsible for reading a PDF file and converting it into Document objects
-ready to be passed to chunker.py afterward.
+ready to be passed to chunker.py afterward
 
 Uses pdfplumber's plain text extraction. We tried converting detected
 tables into Markdown, but pdfplumber's table detection was inconsistent
