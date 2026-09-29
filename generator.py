@@ -1,14 +1,14 @@
 import ollama
 
 
-# ============================================================
+
 # Generate Answer using Ollama (Llama 3.2 1B)
-# ============================================================
+
 
 def generate_answer(question, reranked_results):
 
     # --------------------------------------------------------
-    # Build context from RERANKED results (top 3)
+    # Build context from RERANKED results 
     # --------------------------------------------------------
 
     context_parts = []
